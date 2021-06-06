@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="ru.mirea.vaganov.mireaproject.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="ru.mirea.vaganov.mireaproject.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="ru.mirea.vaganov.mireaproject.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_browser"
+        android:name="ru.mirea.vaganov.mireaproject.Browser"
+        android:label="fragment_browser"
+        tools:layout="@layout/fragment_browser" />
+    <fragment
+        android:id="@+id/calculator"
+        android:name="ru.mirea.vaganov.mireaproject.calculator"
+        android:label="fragment_calculator"
+        tools:layout="@layout/fragment_calculator" />
+    <fragment
+        android:id="@+id/music_player"
+        android:name="ru.mirea.vaganov.mireaproject.music_player"
+        android:label="fragment_music_player"
+        tools:layout="@layout/fragment_music_player" />
+    <fragment
+        android:id="@+id/watch_sensor"
+        android:name="ru.mirea.vaganov.mireaproject.Watch_sensor"
+        android:label="fragment_watch_sensor"
+        tools:layout="@layout/fragment_watch_sensor" />
+    <fragment
+        android:id="@+id/do_photo"
+        android:name="ru.mirea.vaganov.mireaproject.Do_photo"
+        android:label="fragment_do_photo"
+        tools:layout="@layout/fragment_do_photo" />
+    <fragment
+        android:id="@+id/audioRecords"
+        android:name="ru.mirea.vaganov.mireaproject.AudioRecords"
+        android:label="fragment_audio_records"
+        tools:layout="@layout/fragment_audio_records" />
+    <fragment
+        android:id="@+id/stories"
+        android:name="ru.mirea.vaganov.mireaproject.Stories"
+        android:label="fragment_stories"
+        tools:layout="@layout/fragment_stories" />
+    <fragment
+        android:id="@+id/settings"
+        android:name="ru.mirea.vaganov.mireaproject.Settings"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+
+</navigation>
